@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+}
+footer{
+    text-align: center;
+}
+header nav > div h3{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.ul li > a{
+     text-decoration: none;
+     color: black;
+
+   
+
+}
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .nav{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+
+nav > ul > li{
+    display: inline;
+  
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+}
+
+footer{
+    margin: 20px;
+    text-align: center;
+}
